@@ -1,0 +1,51 @@
+.social {
+  background: radial-gradient(at center, #DE571B, #893201);
+}
+
+.social-items {
+  margin-top: clamp(3.75rem, 3.2974rem + 2.5862vw, 5.625rem);
+}
+.social-items .row {
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+  row-gap: 30px;
+}
+
+.social-item {
+  cursor: pointer;
+  font-size: 50px;
+  border-radius: 100%;
+  padding: 50px;
+  border: 5px solid red;
+  width: 10vh;
+  height: 10vh;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+.social-item:hover {
+  opacity: 0.5;
+  -webkit-transform: rotate(21deg);
+          transform: rotate(21deg);
+}
+
+.social-item--telegram {
+  border-color: #0D84BF;
+}
+.social-item--telegram a {
+  color: #0A6C9D;
+}
+
+.social-item--instagram {
+  border-color: #FE393E;
+}
+.social-item--instagram a {
+  color: #FEC70F;
+}
+
+.social-item--tiktok {
+  border-color: #020202;
+}
+.social-item--tiktok a {
+  color: #32BAAE;
+}

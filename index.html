@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+  <link rel="stylesheet" href="css/heroes.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/order.css">
+  <link rel="stylesheet" href="css/waves.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/cards.css">
+  <link rel="stylesheet" href="css/preloader.css">
+  <link rel="stylesheet" href="css/social.css">
+  <link rel="stylesheet" href="css/reviews.css">
+
+  <link rel="stylesheet" href="css/fancybox.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/sweetalert2.min.css">
+</head>
+<body>
+
+
+
+  <header class="header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-4 col-2 col-sm-3 col-md-5">
+          <div class="logo d-flex align-items-center">
+            <div class="logo__image">
+              <img src="assets/heroes/1.png" id="img" width="130px" alt="Логотип">
+            </div>
+            <h1 class="logo__title d-none d-md-block">Услуги мишки<br> & зайки</h1>
+          </div>
+        </div>
+        <div class="col-8 col-md-5 ms-auto">
+          <div class="detalis text-end">
+            <a href="tel:#" class="detalis__tel">+7 (990) 093 61-63</a>
+            <address class="detalis__address">г. Мелитополь, (адресс)</address>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <main class="main">
+    <section class="hero">
+      <div class="hero__fon"></div>
+      <div class="container">
+        <div class="hero__content d-flex flex-column justify-content-center align-items-center">
+          <h1 class="hero__title">Зайка & Мишка <br>
+          в Мелитополе</h1>
+
+
+          <div class="hero-panel text-center">
+            <div class="row flex-column flex-md-row">
+              <div class="col">
+                <div class="hero-panel__item">2-5 лет</div>
+              </div>
+              <div class="col">
+                <div class="hero-panel__item">от 1 часа
+                </div>
+              </div>
+              <div class="col">
+                <div class="hero-panel__item">до 20 детей
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="hero__button btn">Подробнее</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="heroes">
+      <div class="container">
+        <div class="heroes__fon"></div>
+
+        <div class="heroes__video">
+          <video src="" width="100" height="100" autoplay  loop muted>
+          </video>
+        </div>
+
+
+        <div class="heroes-carousel">
+          <div class="row d-flex flex-column-reverse flex-lg-row">
+            <div class="col-lg-6 col-12">
+              <div class="heroes-info text-center text-lg-start"></div>
+            </div>
+
+            <div class="col-lg-5 col-12">
+             <div class="owl-carousel">
+              <div class="heroes-carousel__item" data-video="assets/cards/videos/1.mp4" data-name="Мишка" data-desc="Мишка - это идеальное решение для создания ярких и незабываемых впечатлений на вашем мероприятии. Наш профессиональный аниматор в костюме мишки привнесет ваши мероприятия волшебство и радость, оставляя незабываемые воспоминания у всех гостей." data-color="var(--fon-color_1)"><img src="assets/heroes/3.png" alt="Фотография мишки" class="heroes-carousel__image"></div>
+              <div class="heroes-carousel__item" data-video="assets/cards/videos/2.mp4" data-name="Зайка" data-desc="Зайка - персонаж для аудитории, которая ценит веселье и незабываемые впечатления. Этот аниматор в костюме зайки станет настоящей звездой любого праздника! Он привлечет внимание своим ярким и милым внешним видом, а также интерактивными выступлениями. Аниматор-зайка готов повеселить и развлечь не только самых маленьких гостей, но и взрослую аудиторию." data-color="var(--fon-color_2)"><img src="assets/heroes/5.png" alt="Фотография зайки" class="heroes-carousel__image"></div>
+            </div>             
+          </div>
+        </div>
+
+        <div class="heroes-dots">
+          <div class="row">
+            <div class="col">
+              <div class="heroes__dot"><img src="assets/heroes/3.png" alt="Дот Мишка"></div>
+            </div>
+            <div class="col">
+              <div class="heroes__dot"><img src="assets/heroes/5.png" alt="Дот зайка"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="cards">
+  <div class="container">
+    <h1 class="cards__title title">Позови нас в гости!</h1>
+    <h2 class="cards__sub-title sub-title">Мы обеспечим идеальное совпадение атмосферы, настроения и аромата.</h2>
+
+    <a data-fancybox="gallery-video" href="assets/cards/videos/1.mp4" style="display: none;"></a>
+    <a data-fancybox="gallery-video" href="assets/cards/videos/2.mp4" style="display: none;"></a>
+    <a data-fancybox="gallery-video" href="assets/cards/videos/3.mp4" style="display: none;"></a>
+    <a data-fancybox="gallery-video" href="assets/cards/videos/4.mp4" style="display: none;"></a>
+    <a data-fancybox="gallery-video" href="assets/cards/videos/5.mp4" style="display: none;"></a>
+    <a data-fancybox="gallery-video" href="assets/cards/videos/6.mp4" style="display: none;"></a>
+    <a data-fancybox="gallery-video" href="assets/cards/videos/7.mp4" style="display: none;"></a>
+    <a data-fancybox="gallery-video" href="assets/cards/videos/8.mp4" style="display: none;"></a>
+
+    <a data-fancybox="gallery-image" href="assets/cards/photos/1.jpg" style="display: none;"></a>
+    <a data-fancybox="gallery-image" href="assets/cards/photos/2.jpg" style="display: none;"></a>
+    <a data-fancybox="gallery-image" href="assets/cards/photos/3.jpg" style="display: none;"> </a>
+    <a data-fancybox="gallery-image" href="assets/cards/photos/4.jpg" style="display: none;"></a>
+    <a data-fancybox="gallery-image" href="assets/cards/photos/5.jpg" style="display: none;"></a>
+    <a data-fancybox="gallery-image" href="assets/cards/photos/6.jpg" style="display: none;"></a>
+    <a data-fancybox="gallery-image" href="assets/cards/photos/7.jpg" style="display: none;"></a>
+    <a data-fancybox="gallery-image" href="assets/cards/photos/8.jpg" style="display: none;"></a>
+
+    <div class="cards__items">
+      <div class="row">
+        <div class="col-12 col-lg-6 col-xl-3">
+          <div class="card" data-fancybox-trigger="gallery-image">
+            <div class="card__content d-flex justify-content-center align-items-center flex-umn text-center p-4">
+              <i class="fa-solid fa-people-robbery card__icon"></i> 
+              <h1 class="card__title">Придаем изюминку в фотосессию</h1>
+              <p class="card__desc">Фотосессии являются хорошим способом зафиксировать прекрасные моменты в вашей жизни и рассказать историю о вашей жизни!</p>
+              <i class="fa-regular fa-circle-down cards-item__start-icon"></i>
+            </div> 
+
+            <div class="card__image">
+              <img src="assets/cards/photos/1.jpg">
+            </div>
+          </div>
+        </div> 
+
+
+        <div class="col-12 col-lg-6 col-xl-3">
+          <div class="card" data-fancybox-trigger="gallery-video">
+            <div class="card__content">
+              <i class="fa-solid fa-cake-candles card__icon"></i>
+              <h1 class="card__title">Поздравляем с Днём Рождения!</h1>
+              <p class="card__desc">предлагаем вам провести день рождения в особенно великолепных условиях и с массой веселых мероприятий.</p>
+              <i class="fa-regular fa-circle-down card__start-icon"></i>
+            </div>
+
+
+            <div class="card__video">
+              <video idth="100%" height="100%" autoplay  loop muted  src="assets/cards/videos/1.mp4" id="video">
+              </video>
+            </div>
+
+          </div>  
+        </div>
+        
+        <div class="col-12 col-lg-6 col-xl-3">
+          <div class="card" data-fancybox-trigger="gallery-video">
+            <div class="card__content">
+              <i class="fa-solid fa-people-robbery card__icon"></i> 
+              <h1 class="card__title">Участвуем в детских праздниках!</h1>
+              <p class="card__desc">Наша команда выполнит все необходимые подробности праздника, чтобы все было абсолютно идеально.</p>
+              <i class="fa-regular fa-circle-down card__start-icon"></i>
+            </div>
+
+            <div class="card__video">
+              <video idth="100%" height="100%" autoplay  loop muted  src="assets/cards/videos/2.mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 col-xl-3">
+         <div class="card" data-fancybox-trigger="gallery-video">
+          <div class="card__content d-flex justify-content-center align-items-center flex-umn text-center p-4">
+            <i class="fa-solid fa-people-robbery card__icon"></i> 
+            <h1 class="card__title">Участие в банкетах, свадьбах и корпоративах</h1>
+            <p class="card__desc">Мы сделаем участие в банкете, свадьбе или корпоративном мероприятии незабываемым!</p>
+            <i class="fa-regular fa-circle-down card__start-icon"></i>
+          </div>
+
+          <div class="card__video">
+            <video idth="100%" height="100%" autoplay  loop muted  src="assets/cards/videos/3.mp4">
+            </video>
+          </div>
+        </div> 
+      </div>
+    </div>     
+  </div>
+</section>
+
+
+
+
+<section class="social">
+  <div class="container">
+    <h1 class="social__title title">Мы в социальных сетях</h1>
+    <div class="social-items">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-4 col-md-3 d-flex justify-content-center">
+          <div class="social-item social-item--telegram d-flex justify-content-center align-items-center">
+            <a href=""><i class="fa-brands fa-telegram"></i></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-4 col-md-3 d-flex justify-content-center">
+          <div class="social-item social-item--instagram d-flex justify-content-center align-items-center">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 d-flex justify-content-center">
+          <div class="social-item social-item--tiktok d-flex justify-content-center align-items-center">
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="advantages">
+  <div class="container">
+    <h1 class="advantages__title title">Наши преймущества</h1>
+    <div class="advantages-items">
+      <div class="advantages-item">
+        
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<section class="reviews">
+  <div class="container">
+    <h1 class="reviews__title title">Наши отзывы</h1>
+
+
+    <div class="reviews-items">
+      <div class="row justify-content-lg-between justify-content-center">
+        <div class="col-lg-5 col-10">
+          <div class="review review--1  d-flex flex-column justify-content-center align-items-center text-center">
+            <div class="review__person"><img src="assets/heroes/3.png" alt="Персона панда"></div>
+            <div class="review__person review__person--small"><img src="assets/heroes/3.png" alt="Персона панда"></div>
+            <div class="review__mark"><img src="assets/mark.png" alt="Галочка"></div>
+            <p class="review__message">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-10">
+          <div class="review review--2 d-flex flex-column justify-content-center align-items-center text-center">
+            <div class="review__person"><img src="assets/heroes/5.png" alt="Персона зайка"></div>
+            <div class="review__person review__person--small"><img src="assets/heroes/5.png" alt="Персона зайка"></div>
+            <div class="review__mark"><img src="assets/mark.png" alt="Галочка"></div>
+            <p class="review__message">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="col-5 d-none d-lg-block">
+          <div class="review review--none d-flex flex-column justify-content-center align-items-center text-center">
+            <div class="review__person"><img src="assets/heroes/3.png" alt="Персона зайка"></div>
+            <div class="review__person review__person--small"><img src="assets/heroes/3.png" alt="Персона панда"></div>
+            <div class="review__mark"><img src="assets/mark.png" alt="Галочка"></div>
+            <p class="review__message">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-10">
+          <div class="review review--3 d-flex flex-column justify-content-center align-items-center text-center">
+            <div class="review__person"><img src="assets/heroes/3.png" alt="Персона панда"></div>
+            <div class="review__person review__person--small"><img src="assets/heroes/3.png" alt="Персона панда"></div>
+            <div class="review__mark"><img src="assets/mark.png" alt="Галочка"></div>
+            <p class="review__message">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="reviews-annotator reviews-annotator--1 d-none d-lg-block">
+      <div class="reviews-annotator__person">
+        <img src="assets/heroes/4.png" alt=" Персона куала">
+      </div>
+      <h1 class="reviews-annotator__title title">Не пожалеешь!</h1>
+    </div>
+
+    <div class="reviews-annotator reviews-annotator--2 d-lg-flex align-items-center d-none d-lg-block">
+      <h1 class="reviews-annotator__title title">Одобнено!</h1>
+      <div class="reviews-annotator__person">
+        <img src="assets/heroes/5.png" alt="Персона зайка">
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-4 col-2 col-sm-3 col-md-5">
+        <div class="logo d-flex align-items-center">
+          <div class="logo__image">
+            <img src="assets/heroes/1.png" id="img" width="130px" alt="Логотип">
+          </div>
+          <h1 class="logo__title d-none d-md-block">Услуги мишки<br> & зайки</h1>
+        </div>
+      </div>
+      <div class="col-8 col-md-5 ms-auto">
+        <div class="detalis text-end">
+          <a href="tel:#" class="detalis__tel">+7 (990) 093 61-63</a>
+          <address class="detalis__address">г. Мелитополь, (адресс)</address>  
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<div class="preloader">
+  <span class="loader"></span>
+</div>
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/preloader.js"></script>
+
+<script src="js/jquery-validation-1.19.5.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/sweetalert2.all.min.js"></script>
+<script src="js/fancybox.umd.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/helped.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/detectorScroll.js"></script>
+<script src="js/adaptive.js"></script>
+<script src="js/waves.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/submit-form.js"></script>
+<script src="js/header.js"></script>
+</body>
+</html>
+

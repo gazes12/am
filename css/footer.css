@@ -1,0 +1,4 @@
+.footer {
+  background: conic-gradient(from 180deg, #DE571B, #893201);
+  padding: clamp(0.938rem, 0.4854rem + 2.5862vw, 2.813rem) 0;
+}

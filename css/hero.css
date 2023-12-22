@@ -1,0 +1,25 @@
+.hero__title {
+  font-size: clamp(1.9rem, 0.2803rem + 6.9108vw, 6.5rem);
+  font-weight: 900;
+  margin-bottom: clamp(1.8rem, 1.7296rem + 0.3005vw, 2rem);
+}
+
+.hero-panel .row {
+  -webkit-column-gap: clamp(0.625rem, 0.3233rem + 1.7241vw, 1.875rem);
+     -moz-column-gap: clamp(0.625rem, 0.3233rem + 1.7241vw, 1.875rem);
+          column-gap: clamp(0.625rem, 0.3233rem + 1.7241vw, 1.875rem);
+  row-gap: clamp(0.625rem, 0.2664rem + 2.0492vw, 1.25rem);
+}
+
+.hero-panel__item {
+  white-space: nowrap;
+  background: var(--secondary-color);
+  border-radius: 10px;
+  color: var(--text-color);
+  padding: 5px 20px;
+  font-size: clamp(0.75rem, 0.6897rem + 0.3448vw, 1rem);
+}
+
+.hero__button {
+  margin-top: 70px;
+}
