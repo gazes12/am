@@ -134,40 +134,40 @@
 }
 
 .review--3 {
-  height: 325px;
+  height: 216px;
 }
 @media (max-width: 468px) {
   .review--3 {
-    height: 250px;
+    height: 144px;
   }
 }
 .review--3 .review__person {
-  width: 19%;
+  width: 15%;
   top: clamp(-3%, 50vw, -4%);
   left: clamp(-3%, 50vw, -6%);
 }
 .review--3 .review__person--small {
-  width: 12%;
+  width: 10%;
   right: clamp(0%, 50vw, -5%);
   bottom: clamp(0%, 50vw, -10%);
 }
 .review--3 .review__mark {
-  width: 61px;
-  margin-bottom: 25px;
+  width: 48px;
+  margin-bottom: 15px;
 }
 @media (max-width: 1200px) {
   .review--3 .review__mark {
-    width: 45px;
+    width: 35px;
   }
 }
 @media (max-width: 468px) {
   .review--3 .review__mark {
-    width: 35px;
-    margin-bottom: 15px;
+    width: 25px;
+    margin-bottom: 7px;
   }
 }
 .review--3 .review__message {
-  font-size: clamp(0.833333rem, 0.7328rem + 0.5747vw, 1.25rem);
+  font-size: clamp(0.633333rem, 0.7328rem + 0.5747vw, 1rem);
 }
 
 .review--none {
